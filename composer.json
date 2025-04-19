@@ -1,5 +1,5 @@
 {
-    "name": "juniorboschet/laravel-multitenancy",
+    "name": "juniorboschet/jbtenancy",
     "description": "A package to manage multiple tenants in a Laravel application.",
     "type": "library",
     "license": "MIT",
