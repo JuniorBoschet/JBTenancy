@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MultiTenant\\Providers\\MultiTenantServiceProvider",
+                "MultiTenant\\Providers\\MultiTenantServiceProvider"
             ],
             "aliases": {
                 "MultiTenant": "MultiTenant\\Facades\\MultiTenant"
