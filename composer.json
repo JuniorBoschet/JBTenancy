@@ -1,0 +1,32 @@
+{
+    "name": "juniorboschet/laravel-multitenancy",
+    "description": "A package to manage multiple tenants in a Laravel application.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Junior Boschet",
+            "email": "juniorcboschet@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MultiTenant\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MultiTenant\\Providers\\MultiTenantServiceProvider",
+                "Laravel\\Passport\\PassportServiceProvider"
+            ],
+            "aliases": {
+                "MultiTenant": "MultiTenant\\Facades\\MultiTenant"
+            }
+        }
+    }
+}
