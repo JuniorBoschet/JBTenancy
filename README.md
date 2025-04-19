@@ -10,7 +10,6 @@
 - 🗄️ Bancos de dados separados por tenant
 - 🔧 Migrations e seeders separados para tenants
 - 🧩 Comandos Artisan para gerenciar tenants
-- 🔐 Autenticação OAuth2 via Laravel Passport
 - 🚀 Cache e filas isoladas por tenant *(planejado)*
 - ⚙️ Extensível, modular e fácil de integrar
 
@@ -27,17 +26,6 @@ Instale o pacote manualmente (caso não esteja publicado ainda):
 # Registre o ServiceProvider no config/app.php (ou via package discovery)
 ```
 
----
-
-## 🚀 Setup Inicial
-
-2. **Rode o comando para instalar propagar as migrations do Passport para todos os tenants:**
-
-```bash
-php artisan tenant:passport-install
-```
-
----
 
 ## 🏗️ Comandos Disponíveis
 
@@ -73,16 +61,6 @@ php artisan tenant:seed [--tenant={id}]
 ```
 
 Permitem gerenciar a estrutura e dados de cada tenant individualmente ou em lote.
-
-### 🔐 Autenticação Passport
-
-```bash
-php artisan tenant:passport-install
-```
-
-Executa o `passport:install` globalmente (apenas 1x) e aplica as migrations do Passport para todos os tenants.
-
----
 
 ## 🧩 Estrutura de Pastas
 
