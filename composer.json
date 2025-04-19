@@ -25,7 +25,6 @@
         "laravel": {
             "providers": [
                 "MultiTenant\\Providers\\MultiTenantServiceProvider",
-                "Laravel\\Passport\\PassportServiceProvider"
             ],
             "aliases": {
                 "MultiTenant": "MultiTenant\\Facades\\MultiTenant"
