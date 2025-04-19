@@ -3,6 +3,8 @@
     "description": "A package to manage multiple tenants in a Laravel application.",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Junior Boschet",
@@ -18,6 +20,7 @@
             "MultiTenant\\": "src/"
         }
     },
+    
     "extra": {
         "laravel": {
             "providers": [
