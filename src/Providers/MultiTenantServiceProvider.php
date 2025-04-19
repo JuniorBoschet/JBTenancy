@@ -12,7 +12,6 @@ use MultiTenant\Commands\TenantMigrateCommand;
 use MultiTenant\Commands\MakeTenantSeederCommand;
 use MultiTenant\Commands\DeleteTenantCommand;
 use MultiTenant\Commands\DisableTenantCommand;
-use MultiTenant\Commands\InstallPassportForTenantCommand;
 
 class MultiTenantServiceProvider extends ServiceProvider
 {
@@ -35,7 +34,6 @@ class MultiTenantServiceProvider extends ServiceProvider
                 MakeTenantSeederCommand::class,
                 DeleteTenantCommand::class,
                 DisableTenantCommand::class,
-                InstallPassportForTenantCommand::class,
             ]);
         }
         
